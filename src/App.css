@@ -22,7 +22,31 @@
 }
 .card {
   width: 20rem;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.card-image {
+  height: 100px;
+  width: 100px;
+  float: left
+}
+.box-search .media-list {
+  text-align: left;
+  padding-left: 0
+}
+.App-header {
   text-align: left
+}
+.App-header .logo {
+  border-radius: 100px
+}
+.card-text {
+  font-size: 12px;
+  padding: 0 10px 10px 0
+}
+.card-title {
+  font-size: 20px;
+  padding-top: 10px
 }
 @keyframes spin {
   from { transform: rotate(0deg); }

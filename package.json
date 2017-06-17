@@ -12,8 +12,10 @@
     "react-bootstrap": "^0.31.0",
     "react-dom": "^15.6.1",
     "react-google-login": "^2.9.2",
-    "react-router": "^2.6.0"
-    },
+    "react-number-format": "^2.0.0-alpha4",
+    "react-router": "^2.6.0",
+    "youtube-api-search": "0.0.5"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
