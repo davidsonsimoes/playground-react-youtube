@@ -7,7 +7,7 @@ import ParamsExample from './ParamsExample'
 import QueryExample from './QueryExample'
 import ProgrammaticExample from './ProgrammaticExample'
 import FourOFour from './404Example'
-import Dashboard from './DashBoard'
+import Dashboard from './DashBoard.js'
 import './index.css';
 
 ReactDOM.render(

@@ -193,9 +193,16 @@ class App extends Component {
       return (
         <div className="App">
           <div className="App-header">
-            <img src={logo} className="App-logo" alt="logo" />
-            <h2>Entre com sua conta do Google</h2>
-
+            <div className="container">
+              <div className="row">
+                <div className="col-12 nao-logado">
+                 <img src={logo} className="App-logo" alt="logo" />
+                  <h2>Entre com sua conta do Google</h2>
+                </div>
+              </div>
+              
+            </div>
+            
           </div>
           <div className="container">
             <br/>
