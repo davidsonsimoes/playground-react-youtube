@@ -209,8 +209,7 @@ class App extends Component {
             <br/>
             <GoogleLogin
                 clientId='3211362625-chgfsdfr0qcutrhk8sqfeg8krf1prqf4.apps.googleusercontent.com'
-                scope='https://www.googleapis.com/auth/youtube'
-                scope='https://www.googleapis.com/auth/yt-analytics-monetary.readonly'
+                scope='https://www.googleapis.com/auth/youtube https://www.googleapis.com/auth/yt-analytics-monetary.readonly'
                 onSuccess={this.sendUser}
                 onFailure={error}
                 onRequest={loading}
